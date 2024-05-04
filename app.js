@@ -33,7 +33,7 @@ const app=express();
 
 //enable cors request
 app.use(cors({
-    origin: 'http://localhost:5173',  // allow all origin
+    origin: 'https://capstone-vechicle-fe-1.vercel.app/',  // allow all origin
     credentials: true
 }));
 
